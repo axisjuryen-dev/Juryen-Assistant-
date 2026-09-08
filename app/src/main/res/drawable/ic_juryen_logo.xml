@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle with diagonal gradient -->
+    <path android:pathData="M100,4 A96,96 0 1,1 99.9,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="10"
+                android:startY="10"
+                android:endX="190"
+                android:endY="190"
+                android:startColor="#151935"
+                android:endColor="#0A0C1A" />
+        </aapt:attr>
+    </path>
+
+    <!-- Thin outer ring accent -->
+    <path
+        android:pathData="M100,6 A94,94 0 1,1 99.9,6 Z"
+        android:strokeWidth="2"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="10"
+                android:startY="10"
+                android:endX="190"
+                android:endY="190"
+                android:startColor="#5B8CFF"
+                android:endColor="#8A5BFF" />
+        </aapt:attr>
+    </path>
+
+    <!-- Stylised "J" swoosh, built as a ribbon path -->
+    <path android:pathData="M118,52 L136,52 L136,120 C136,144 118,152 98,152 C80,152 66,144 60,128 L76,120 C80,130 88,135 98,135 C110,135 118,129 118,116 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="60"
+                android:startY="52"
+                android:endX="136"
+                android:endY="152"
+                android:startColor="#8A5BFF"
+                android:endColor="#5B8CFF" />
+        </aapt:attr>
+    </path>
+
+    <!-- AI spark / dot above the J, representing "listening" -->
+    <path android:pathData="M118,28 L123,40 L135,45 L123,50 L118,62 L113,50 L101,45 L113,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="101"
+                android:startY="28"
+                android:endX="135"
+                android:endY="62"
+                android:startColor="#FFFFFF"
+                android:endColor="#5B8CFF" />
+        </aapt:attr>
+    </path>
+
+    <!-- Small sound-wave arcs to the right, representing voice activation -->
+    <path
+        android:pathData="M148,88 A20,20 0 0,1 148,112"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:strokeColor="#5B8CFF"
+        android:strokeAlpha="0.85" />
+    <path
+        android:pathData="M156,78 A34,34 0 0,1 156,122"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:strokeColor="#8A5BFF"
+        android:strokeAlpha="0.55" />
+
+</vector>
