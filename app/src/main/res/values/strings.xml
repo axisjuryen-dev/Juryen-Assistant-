@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Juryen</string>
+    <string name="accessibility_service_description">Allows Juryen to tap and navigate other apps on your behalf when you give a voice command (e.g. selecting a photo to upload).</string>
+</resources>
