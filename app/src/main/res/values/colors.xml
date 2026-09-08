@@ -1,0 +1,7 @@
+<resources>
+    <color name="juryen_dark">#0E1021</color>
+    <color name="juryen_accent">#5B8CFF</color>
+    <color name="juryen_accent_2">#8A5BFF</color>
+    <color name="juryen_text_secondary">#A0A6C0</color>
+    <color name="white">#FFFFFF</color>
+</resources>
